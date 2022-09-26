@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: YellowEnemy
   m_EditorClassIdentifier: 
   eColorType: 4
-  color: {r: 1, g: 0.7206769, b: 0, a: 1}
+  color: {r: 1, g: 0.8705691, b: 0, a: 1}
   enemyClass: 2
   attackPower: 5
   health: 1

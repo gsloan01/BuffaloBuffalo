@@ -66,7 +66,7 @@ public class SpawnPoint : MonoBehaviour
             enemy.Init(GetRandomEnemyType());
         }
 
-        Debug.Log($"{name} just spawned a {enemy.type.name}, which is a {enemy.type.enemyClass}");
+        Debug.Log($"{name} just spawned a {enemy.type.eColorType} {enemy.type.enemyClass}");
         return enemy.gameObject;
     }
     public void Reset()
